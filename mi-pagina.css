@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .buscar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+header .carrito a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #0275d8;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #4cae4c;
+}
+
+/* Productos destacados */
+.productos-destacados {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.productos-destacados h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto button {
+    padding: 10px 20px;
+    background-color: #0275d8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #025aa5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
